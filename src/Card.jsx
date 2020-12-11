@@ -5,8 +5,8 @@ import DataCard from './DataCard'
 function Card() {
 
   return (
+    <h1>Hola mundo</h1>
     <>
-      <h1>hola mundo</h1>
       { DataCard.map(cards => (
 
         <div className="card my-4 mx-4"
