@@ -2,9 +2,10 @@ import React from 'react'
 import DataCard from './DataCard'
 
 
-function Card () {
+function Card() {
 
   return (
+    <h1>hola mundo</h1>
     <>
     { DataCard.map(cards => (
 
@@ -20,6 +21,7 @@ style={{width: "18rem"}}>
 </div>
 ))};
 </>
-)}
+  )
+}
 
 export default Card;
